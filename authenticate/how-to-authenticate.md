@@ -1,10 +1,6 @@
----
-description: >-
-  Client ID & Secret You need your ClientId and/or secret before you can start
-  using the Nuqtah products and running API calls.
----
-
 # How to authenticate
+
+Client ID & Secret You need your ClientId and/or secret before you can start using the Nuqtah products and running API calls.
 
 ### Already have your Client ID & Secret?
 
