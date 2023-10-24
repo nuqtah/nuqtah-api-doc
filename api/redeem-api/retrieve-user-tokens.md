@@ -17,7 +17,7 @@ This endpoint will return all tokens that are eligible for online redeeming for 
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="email" required="true" %}
-${USER\_EMAIL} \*REQUIRED for third party integration
+${USER\_EMAIL}&#x20;
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Authorization " required="true" %}
