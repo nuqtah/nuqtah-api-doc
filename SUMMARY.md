@@ -5,7 +5,8 @@
 ## API
 
 * [Internal Backend API](api/internal-backend-api/README.md)
-  * [Post NFT](api/internal-backend-api/post-nft.md)
+  * [POST NFT](api/internal-backend-api/post-nft.md)
+  * [GET NFT Count](api/internal-backend-api/get-nft-count.md)
 * [Redeem API](api/redeem-api/README.md)
   * [Getting Started](api/redeem-api/getting-started.md)
   * [Retrieve User Tokens](api/redeem-api/retrieve-user-tokens.md)
