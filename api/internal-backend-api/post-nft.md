@@ -4,15 +4,11 @@ description: Creating NFT/Token
 
 # POST NFT
 
-This function is a monolith that gets used in a few places in our app to create an NFT/Token. For example to create an NFT on the marketplace or to create a Token on the console dashboard you would end up calling this function.
+This function is a monolith that gets used in a few places in our app to create an NFT/Token.
 
 It is very flexible in terms of input meaning depending on the data send in its body it will accept it and create the NFT/Token accordingly.
 
-This also edits NFTs
-
-It could create an NFT with tokenType = normal or tokenType = template depending on where you call it from and what params you pass. We will explore this.
-
-Lets jump in
+Lets jump in!
 
 
 
