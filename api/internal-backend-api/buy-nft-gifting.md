@@ -17,12 +17,8 @@ To ping this endpoint you must be an authorized user. You must have an active su
 ${AUTH\_TOKEN}
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="nftID" required="true" %}
-ID of the NFT
-{% endswagger-parameter %}
-
 {% swagger-parameter in="body" required="true" name="purchase" type="JSON" %}
-Contains the purchase object.
+(FOR GIFTING/CLAIMING) Contains the purchase object.
 
 You can use either "toEmail" or "claimCode".\
 \`\`\`\
@@ -34,6 +30,31 @@ purchase:{ "toEmail":${RECIEPIENT\_EMAIL},\
 }
 
 \`\`\`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="nftID" required="true" %}
+ID of the NFT
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="purchase" type="JSON" %}
+( FOR MARKETPLACE BUYING)
+
+Some metamask actions are triggered via Nuqtah's frontend. Probably would need that alongside this.
+
+
+
+"claimCode" is optional.\
+\
+purchase: {
+
+"symbol":"MATIC || ETH || GO",
+
+"to":${RECIPEINT\_WALLET\_ADDRESS},\
+"operation":"PURCHASING"
+
+"claimCode":"${CODE\_GENERATED\_FROM\_NUQTAH\_WEBSITE},"
+
+}
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Expand View" %}
