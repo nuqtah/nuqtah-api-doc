@@ -44,7 +44,8 @@ Must be a form data part contains the data and part contains the media file
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="network" type="String" %}
-Blockchain network. e.g. "Matic", "GoChain", etc..
+Supported Networks atm:\
+"ETH" | "MATIC" | "GO"
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="visibilty" type="Enum" %}
