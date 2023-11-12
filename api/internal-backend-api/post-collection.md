@@ -23,7 +23,7 @@ Auth token
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="Name" required="true" %}
-
+Collection Name
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="Network" required="true" type="Enum" %}
@@ -35,20 +35,20 @@ Supported Networks atm:\
 Wallet address to mint contract to, if this is empty it will mint to Nuqtah's internal wallet
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="Description" %}
-
+{% swagger-parameter in="body" name="Description" required="true" %}
+collection description&#x20;
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="image" type="image/file" required="true" %}
-
+image that will appear in Nuqtah's marketplace
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="imageHeader" type="image/file" required="true" %}
-
+image that will appear as a banner in Nuqtah's Marketplace
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" type="image/file" name="imageFeatured" required="true" %}
-
+Featured image  that will appear in Nuqtah's Marketplace
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="royalty" type="String" %}
