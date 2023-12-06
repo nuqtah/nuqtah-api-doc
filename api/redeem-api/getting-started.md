@@ -13,7 +13,7 @@ Firstly you need to subscribe to one of our plans OR simply claim this awesome N
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Choose a plan</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Claim your free trial token</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Claim your free trial token</p></figcaption></figure>
 
 After you claim your free trial token ( or buy a plan), you will gain access to the console.&#x20;
 
