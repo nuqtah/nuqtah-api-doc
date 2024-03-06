@@ -2,11 +2,11 @@
 
 * [Introduction](README.md)
 * [Before we start](before-we-start.md)
-* [Creating a Token](creating-a-token.md)
-* [Buy NFT (Gifting)](buy-nft-gifting.md)
 
 ## API
 
+* [Creating a Token](api/creating-a-token.md)
+* [Buy NFT (Gifting)](api/buy-nft-gifting.md)
 * [POST Collection](api/post-collection.md)
 * [GET NFT Count](api/get-nft-count.md)
 * [Redeem API](api/redeem-api/README.md)
@@ -17,7 +17,3 @@
   * [Create ERC-20 token](api/loyalty-program/create-erc-20-token.md)
   * [Campaigns to send ERC-20 tokens](api/loyalty-program/campaigns-to-send-erc-20-tokens.md)
   * [Sending ERC-20 tokens directly](api/loyalty-program/sending-erc-20-tokens-directly.md)
-
-***
-
-* [PAY API(coming soon)](pay-api-coming-soon.md)

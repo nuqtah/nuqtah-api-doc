@@ -1,2 +1,0 @@
-# PAY API(coming soon)
-
