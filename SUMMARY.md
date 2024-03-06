@@ -6,7 +6,7 @@
 ## API
 
 * [Creating a Token](api/creating-a-token.md)
-* [Buy NFT (Gifting)](api/buy-nft-gifting.md)
+* [Buying NFT](api/buying-nft.md)
 * [POST Collection](api/post-collection.md)
 * [GET NFT Count](api/get-nft-count.md)
 * [Redeem API](api/redeem-api/README.md)
