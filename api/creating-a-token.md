@@ -1,8 +1,6 @@
----
-description: Please use this endpoint to create a token
----
-
 # Creating a Token
+
+Please use this endpoint to create a token
 
 ### &#x20;Sample Request
 
