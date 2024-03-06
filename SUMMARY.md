@@ -5,7 +5,7 @@
 ## API
 
 * [Internal Backend API](api/internal-backend-api/README.md)
-  * [Creating a Token](api/internal-backend-api/creating-a-token.md)
+  * [Creating a Token](api/internal-backend-api/post-nft.md)
   * [POST Collection](api/internal-backend-api/post-collection.md)
   * [GET NFT Count](api/internal-backend-api/get-nft-count.md)
   * [Buy NFT (Gifting)](api/internal-backend-api/buy-nft-gifting.md)
@@ -21,3 +21,4 @@
 ***
 
 * [PAY API(coming soon)](pay-api-coming-soon.md)
+* [Before we start](before-we-start.md)
