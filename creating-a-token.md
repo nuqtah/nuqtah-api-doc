@@ -50,18 +50,6 @@ Number of copies/children you can send to users of this NFT
 NFT price on marketplace
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="categories" type="String Array" %}
-Add attributes to marketplace NFT
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="royalty" type="Int" %}
-Royalty percentage on the NFT
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="type" type="Enum" %}
-example "image/png" | "audio/mp4"
-{% endswagger-parameter %}
-
 {% swagger-response status="201: Created" description="Returns the NFT object of the created NFT" %}
 ```json
 // Some code
