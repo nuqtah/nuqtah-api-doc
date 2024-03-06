@@ -10,9 +10,9 @@ This endpoint handles all the logic of buying NFTs or gifting it to users. It ha
 
 ### Request
 
-Request method: POST
+Request method: **POST**
 
-Endpoint: https://api.itsnuqtah.com/v1/nfts/**:id**/buy
+Endpoint: **https://api.itsnuqtah.com/v1/nfts/:id/buy**
 
 Request headers:
 
