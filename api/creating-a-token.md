@@ -120,7 +120,85 @@ Request body:
 
 **image**: This appears to be a binary file representing the image associated with the NFT. It is likely the visual representation or artwork that corresponds to the NFT.
 
-\
+### &#x20;Response
 
-
 \
+The above request returns a newly created token with the provided data.&#x20;
+
+```
+{
+    "nft": {
+        "id": "Up6XSfOdbLlPDno9bXBt0",
+        "updatedAt": "2024-03-06T12:45:27.806368+05:00",
+        "createdAt": "2024-03-06T12:45:27.806368+05:00",
+        "userID": "VUc1dhFMX8XeHTM23BQGbRPFHGN2",
+        "attributes": [
+            {
+                "trait_type": "Event name",
+                "display_type": "",
+                "value": "Leap"
+            },
+            {
+                "trait_type": "Year",
+                "display_type": "",
+                "value": "2024"
+            }
+        ],
+        "logs": null,
+        "cloudflare": {
+            "id": "36aed7a3-4edf-48cd-7a89-91a2769b9000",
+            "status": "ready",
+            "code": "",
+            "message": "",
+            "readyToStream": true
+        },
+        "creatorID": "VUc1dhFMX8XeHTM23BQGbRPFHGN2",
+        "collectionID": "universal-matic",
+        "network": "MATIC",
+        "contractAddress": "0x8A2d6670F0aa700573b63c1997eC42fBd7414e9B",
+        "tokenID": "",
+        "mintTx": "",
+        "mintedAt": "0001-01-01T00:00:00Z",
+        "isMinted": false,
+        "tokenURI": "",
+        "ownerAddress": "0x08132428682F41dc7E746809726FB8CCb851C5a3",
+        "linkedID": "",
+        "status": "",
+        "categories": null,
+        "name": "Your token name",
+        "description": "Some description for testing",
+        "image": "https://storage.googleapis.com/nuqtah-dev.appspot.com/nfts%2FUp6XSfOdbLlPDno9bXBt0%2Fimage.jpeg",
+        "imageFull": "",
+        "standard": "ERC721",
+        "preview": "",
+        "mediaStatus": "ready",
+        "price": "0",
+        "priceSymbol": "",
+        "royalty": "0",
+        "symbol": "",
+        "visibility": "public",
+        "copiesMax": 1000,
+        "copiesNum": 0,
+        "copyNum": 0,
+        "originalID": "",
+        "numLikes": 0,
+        "featured": false,
+        "imported": false,
+        "expiresAt": "0001-01-01T00:00:00Z",
+        "user": null,
+        "type": "dgift",
+        "tokenType": "template",
+        "mediaType": "",
+        "redeemDescription": "",
+        "redeemURL": "",
+        "redeemType": "",
+        "discountValue": "",
+        "numRedeemed": 0,
+        "maxRedeemed": 0,
+        "isRedeemable": false,
+        "orgID": "u9JE2Uf898ofMn33khhl",
+        "animationURL": "",
+        "settings": null
+    }
+}
+```
