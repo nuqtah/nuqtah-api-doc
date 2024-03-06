@@ -1,8 +1,4 @@
----
-description: Creating NFT/Token
----
-
-# POST NFT
+# Creating a Token
 
 This function is a monolith that gets used in a few places in our app to create an NFT/Token.
 
