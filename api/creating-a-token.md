@@ -70,3 +70,57 @@ NFT price on marketplace
 
 {% endswagger-response %}
 {% endswagger %}
+
+### &#x20;Sample Request
+
+Request method: **POST**
+
+Request headers:&#x20;
+
+* **Authorization**: "apiKey YOUR\_API\_KEY"
+* **Content-Type:** "multipart/form-data"
+
+Request body:
+
+```postman_json
+{
+    "json": {
+        "nft": {
+            "name": "Your token name",
+            "description": "Some description for testing",
+            "copiesMax": 1000,
+            "network": "MATIC",
+            "tokenType": "template",
+            "attributes": [
+                {
+                    "trait_type": "Event name",
+                    "value": "Leap"
+                },
+                {
+                    "trait_type": "Year",
+                    "value": "2024"
+                }
+            ]
+        }
+    },
+    "image": "binary file"
+}
+```
+
+**json**: This appears to be a nested object containing the information related to the NFT being created.
+
+**nft**: This object contains details specific to the NFT.
+
+* **copiesMax**: The maximum number of copies of this NFT that can exist, set to 1000 in this example.
+* **network**: The blockchain network associated with this NFT, which is "MATIC" (Polygon) in this example.
+* **tokenType**: The type of token, which is "template" in this example.
+* **attributes**: An array containing additional attributes or traits associated with the NFT.
+  * Each attribute object in the array contains a "trait\_type" and a "value".
+  * In this example, there are two attributes: "Event name" with a value of "Leap", and "Year" with a value of "2024".
+
+**image**: This appears to be a binary file representing the image associated with the NFT. It is likely the visual representation or artwork that corresponds to the NFT.
+
+\
+
+
+\
